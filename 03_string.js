@@ -30,7 +30,7 @@ console.log(lstring);
 console.log(lstring.trim());// remove estra space from string after and befoe string
 
 const url="https://www.google.com"
-console.log(url.startsWith('hj')); // for checking 
+console.log(url.startsWith('hj')); // for checking
 console.log(url.endsWith('com')); // for checking
 console.log(url.replace('com','in')); // for replacing
 console.log(url.includes('google')); // for identify the existence

@@ -1,7 +1,7 @@
 // array does contain different and similar both type of data
 
 /*
-const new_Arr = [1,2,5,6,8]; 
+const new_Arr = [1,2,5,6,8];
 console.log(new_Arr);
 console.log(new_Arr[2]); // indexing
 
@@ -66,4 +66,4 @@ const dc_heros = ["superman", "flash", "batman"]
 // console.log(newHero);
 
 const newHero1 = [...dc_heros,...marvel_heros] // concate using spreader 
-console.log(newHero1); 
+console.log(newHero1);

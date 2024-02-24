@@ -96,9 +96,9 @@ let str_2="string2"
 console.log(str1+str2);
 
 
-//****************** COMPARISON ****************** 
+//****************** COMPARISON ******************
 
-/* same as the other languages */ 
+/* same as the other languages */
 // console.log(2 > 1);
 // console.log(2 >= 1);
 // console.log(2 < 1);

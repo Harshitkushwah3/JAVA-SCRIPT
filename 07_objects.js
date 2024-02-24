@@ -3,7 +3,7 @@
 WE CAN DEFINE OBJECT IN JAVASCRIPT AS LITERAL AND CONSTRUCTOR
 
 // SINGLETON OBJECT
-   When de define object as literal then it is not a singleton object. 
+When de define object as literal then it is not a singleton object. 
 
 */
 
@@ -47,7 +47,7 @@ console.log(jsuser); // print all teh values
 console.log(jsuser.age); // here the value of age is not changed
 
 
-// we can use function as variable in the object    
+// we can use function as variable in the object
 
 jsuser.greeting=function(){
     console.log("hello");
@@ -116,7 +116,7 @@ const course = {
     cr_teacher: "Harshit",
 }
 
-// course.cr_name 
+// course.cr_name
 
 // const {cr_teacher , cr_name , cr_price }= course //defining the values we    have to access from the object without using the constructor like (course.cr_name)
 

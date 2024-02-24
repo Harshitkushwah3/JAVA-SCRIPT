@@ -11,12 +11,12 @@ function name(){   // syntax of function
     console.log("I");
     console.log("T");
 }
-name    // syntax of function refernece 
+name    // syntax of function refernece
 name(); // calling the function using function reference
         // syntax of function calling
 
 for (let i = 0; i < 10; i++) {  // for printing n no.of times
-    name();   
+    name();
 }
 
 */
