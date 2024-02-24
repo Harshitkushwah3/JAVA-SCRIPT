@@ -34,7 +34,7 @@ const myFunction = function(){
 
 console.log(typeof anotherId);
 
-/* 
+/*
 
     TYPES OF VALUES
 1:- UNDEFINED => UNDEFINED
@@ -93,7 +93,7 @@ console.log(account)
 
 // alert( 3 + 3) // we are using nodejs, not browser
 
-console.log(3 
+console.log(3
     +
      3) // code readability should be high
 
@@ -110,7 +110,7 @@ let state;
 // string => ""
 // boolean => true/false
 // null => standalone value
-// undefined => 
+// undefined =>
 // symbol => unique
 
 
