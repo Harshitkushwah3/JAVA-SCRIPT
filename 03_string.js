@@ -9,6 +9,7 @@ console.log(`hello my name is ${name} and ${lname}`);
 
 // string declaratoin new method
 
+
 const hname= new String('Harshit_kushwa_03')
 //console.log(hname[0]);
 //console.log(hname.__proto__.toUppercase());
