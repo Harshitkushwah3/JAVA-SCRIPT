@@ -29,6 +29,8 @@ function addtwonumber(num1,num2){ // here num1,num2 are the parameters
 
 */
 
+/*
+
 function addtwonumber(num1,num2){ // here num1,num2 are the parameters
     let result=num1+num2;
     return result; // we can define here return statement because it will return the value instead of printing it.
@@ -36,3 +38,43 @@ function addtwonumber(num1,num2){ // here num1,num2 are the parameters
 
  const result = addtwonumber(3,"4")  // here 3 and 4 are arguments
     console.log(result);
+
+*/
+
+/*
+
+// here ... are the rest operator
+function calculatecarprice(...num1){
+    return num1
+}
+console.log(calculatecarprice(200,500,700))
+
+*/
+
+// defining object in the function
+
+/*
+const user={
+    name:"Harshit",
+    age:25,
+    gender:"male",
+    hobbies:["football","basketball","cricket"],
+    occupation:"programmer"
+}
+*/
+function handleobject(anyobject){
+    console.log(`Username is ${anyobject.name} and age is ${anyobject.age}`);
+}
+
+// handleobject(user);
+
+// other method to define object
+
+handleobject({
+    name:"Harshit",
+    age:30,
+    gender:"male",
+    hobbies:["football","basketball","cricket"],
+    occupation:"programmer"
+})
+
