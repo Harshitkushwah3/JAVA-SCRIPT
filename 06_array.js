@@ -42,6 +42,28 @@ console.log(myn1);
 console.log("B ", myArr);
 
 const myn2 = myArr.splice(1, 3) // manipulate original array
+
+/* ********************************************************************** */
+
+const App = () => {
+  const isLoggedIn = useSelector(({ auth }) => auth.isLoggedIn);
+
+  return (
+    <>
+      <ThemeProvider
+        breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
+        minBreakpoint="xxs"
+      >
+        <ErrorBoundary>
+          <Router>{isLoggedIn ? <PrivateRoutes /> : <PublicRoutes />}</Router>
+        </ErrorBoundary>
+      </ThemeProvider>
+    </>
+  );
+};
+
+
+
 console.log("C ", myArr);
 console.log(myn2);
 
@@ -50,6 +72,8 @@ console.log(myn2);
 const newAr =newB.join()
 console.log(newAr);
 console.log(typeof newAr); // convert array in to string
+
+
 
 */
 /* ********************************************************************** */
