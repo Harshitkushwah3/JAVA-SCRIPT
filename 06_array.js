@@ -1,5 +1,27 @@
-// array does contain different and similar both type of data
-//modified
+/*
+    Arrays-
+        1.An array is a special variable, which can hold more than one value
+        2.You can also create an array, and then provide the elements
+        3.Array indexes start with 0.
+        4.The JavaScript method toString() converts an array to a string of (comma separated) array values.
+        5.The length property of an array returns the length of an array (the number of array elements)
+        6.The easiest way to add a new element to an array is using the push() method
+        ---------------------------------------------------------------------------------------------------
+        Methods-
+            Array length
+            Array toString()
+            Array pop()
+            Array push()
+            Array shift()
+            Array unshift()
+            Array join()
+            Array delete()
+            Array concat()
+            Array flat()
+            Array splice()
+            Array slice()
+*/
+
 /*
 const new_Arr = [1,2,5,6,8];
 console.log(new_Arr);
@@ -44,25 +66,6 @@ console.log("B ", myArr);
 const myn2 = myArr.splice(1, 3) // manipulate original array
 
 /* ********************************************************************** */
-
-const App = () => {
-  const isLoggedIn = useSelector(({ auth }) => auth.isLoggedIn);
-
-  return (
-    <>
-      <ThemeProvider
-        breakpoints={["xxxl", "xxl", "xl", "lg", "md", "sm", "xs", "xxs"]}
-        minBreakpoint="xxs"
-      >
-        <ErrorBoundary>
-          <Router>{isLoggedIn ? <PrivateRoutes /> : <PublicRoutes />}</Router>
-        </ErrorBoundary>
-      </ThemeProvider>
-    </>
-  );
-};
-
-
 
 console.log("C ", myArr);
 console.log(myn2);
