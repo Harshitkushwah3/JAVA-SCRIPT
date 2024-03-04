@@ -1,5 +1,5 @@
 // array does contain different and similar both type of data
-
+//modified
 /*
 const new_Arr = [1,2,5,6,8];
 console.log(new_Arr);
